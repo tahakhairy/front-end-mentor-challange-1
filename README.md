@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-E0Ux4XIEp)
 - Live Site URL: [Live Site](https://tahakhairy.github.io/front-end-mentor-challange-1/)
 
 ## My process
