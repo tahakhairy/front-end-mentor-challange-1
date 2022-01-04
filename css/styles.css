@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(216, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 20px 20px 10px hsla(216, 54%, 11%, 0.74), -20px 20px 10px hsla(216, 54%, 11%, 0.74);
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    margin-left: -175px;
+    margin-top: -315.5px;
+    padding: 24px;
+}
+
+.img-icn-container {
+    width: 350px;
+    height: 350px;
+}
+
+.icon-view {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    line-height: 350px;
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.171);
+    border-radius: 8px;
+    opacity: 0;
+}
+
+.icon-view:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.equilibrium-img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card-title {
+    color: hsl(0, 0%, 100%);
+}
+
+.card-title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-desc {
+    color: hsl(215, 51%, 70%);
+}
+
+.info {
+    position: relative;
+}
+
+.e-price,
+.time-left {
+    display: inline-block;
+    margin: 0;
+}
+
+.e-price h4 {
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+}
+
+.time-left p {
+    display: inline-block;
+}
+
+.time-left {
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    top: 9%;
+    right: 0;
+}
+
+hr {
+    border-width: 1px 0 0 0;
+    border-color: hsl(215, 51%, 70%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-img {
+    display: inline-block;
+    width: 15%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.creator-name {
+    display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator-name a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.creator-name a:hover {
+    color: hsl(178, 100%, 50%);
+}
